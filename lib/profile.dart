@@ -16,7 +16,7 @@ class profile extends StatelessWidget {
               CircleAvatar(
                 backgroundColor: Colors.blue,
                 radius: 50,
-                child: Icon(Icons.person, size: 50),
+                backgroundImage: AssetImage("assets/images.jpg"),
               ),
               SizedBox(height: 20),
               Text(
